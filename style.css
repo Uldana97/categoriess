@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.output{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+}
+.output img{
+    width: 200px;
+    height: 180px;
+}
+
+.categories__choise{
+    display: flex;
+    column-gap: 10px;
+    margin: 20px 20px
+} 
+.categories__choise button{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.colorDel{
+    background-color: aqua;
+}
+
+.show{
+    display: none;
+}
